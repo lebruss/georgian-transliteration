@@ -1,0 +1,21 @@
+#header, #footer, #login, #filler {background:red; color:white}
+#header{float: left}
+#login{float: right}
+#navigation {width:10%; float:left; background:red}
+#content {
+    overflow: auto;
+    background-image: url('images/flag.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#navigation, #content {height:700px}
+code {color:red}
+#navigation{color:white}
+a {
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #f10000;
+}
